@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "title": "Cms Home",
   "description": "A Cms Home",
-  "homepage": "https://github.com/Dreampie/Vue2-Components",
+  "homepage": "https://github.com/Dreampie/Vue2-CMS",
   "author": "wangrenhui <wangrenhui@meituan.com>",
   "private": true,
   "scripts": {
@@ -16,12 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Dreampie/Vue2-Components.git"
+    "url": "git://github.com/Dreampie/Vue2-CMS.git"
   },
   "bugs": {
-    "url": "https://github.com/Dreampie/Vue2-Components/issues"
+    "url": "https://github.com/Dreampie/Vue2-CMS/issues"
   },
   "dependencies": {
+    "axios": "^0.16.1",
     "@dreampie/vue2-common": "^0.0.4",
     "@dreampie/vue2-plugin": "^0.0.2",
     "@dreampie/vue2-component": "^0.0.4",

@@ -1,5 +1,5 @@
 import Vue from "vue";
-import {VueBus, VueCookie, VueHttp} from "@dreampie/vue2-plugin";
+import Vue2Plugin from "@dreampie/vue2-plugin";
 import "./filter.js";
 import router from "./router.js";
 import store from "./store.js";
@@ -20,9 +20,11 @@ window.localStorage.setItem("rootUrl", rootUrl)
 window.localStorage.setItem("apiRootUrl", apiRootUrl)
 window.localStorage.setItem("loginUrl", loginUrl)
 
-Vue.use(VueCookie)
-Vue.use(VueBus)
-Vue.use(VueHttp)
+Vue.use(Vue2Plugin)
+
+console.log(Vue.cookie)
+console.log(Vue.bus)
+console.log(Vue.http.defaults)
 
 new Vue({
     router,
