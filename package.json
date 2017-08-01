@@ -4,7 +4,7 @@
   "title": "Cms Home",
   "description": "A Cms Home",
   "homepage": "https://github.com/Dreampie/Vue2-CMS",
-  "author": "wangrenhui <wangrenhui@meituan.com>",
+  "author": "Dreampi <Dreampie@outlook.com>",
   "private": true,
   "scripts": {
     "local": "cross-env NODE_ENV=local webpack --progress --hide-modules && cross-env NODE_ENV=local webpack-dev-server --open --inline --hot --port 10000",
@@ -21,8 +21,8 @@
   "dependencies": {
     "axios": "^0.16.1",
     "@dreampie/vue2-common": "^0.0.5",
-    "@dreampie/vue2-plugin": "^0.0.4",
-    "@dreampie/vue2-component": "^0.0.7",
+    "@dreampie/vue2-plugin": "^0.0.5",
+    "@dreampie/vue2-component": "^0.0.8",
     "vue": "^2.3.3",
     "vue-router": "^2.5.3",
     "vuex": "^2.3.1"

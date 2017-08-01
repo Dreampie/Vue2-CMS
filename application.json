@@ -3,7 +3,7 @@
   "title": "运营平台主页",
   "local": {
     "rootUrl": "http://localhost:10000",
-    "apiRootUrl": "http://localhost:9000",
-    "loginUrl": "http://develop.sso.test.sankuai.info/auth?service=http://localhost:9000/sso"
+    "apiRootUrl": "http://localhost:10000",
+    "loginUrl": "http://localhost:10000"
   }
 }

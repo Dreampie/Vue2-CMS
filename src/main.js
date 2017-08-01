@@ -26,6 +26,7 @@ console.log(Vue.cookie)
 console.log(Vue.bus)
 console.log(Vue.http.defaults)
 
+console.log(store)
 new Vue({
     router,
     store,
