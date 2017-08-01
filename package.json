@@ -4,7 +4,7 @@
   "title": "Cms Home",
   "description": "A Cms Home",
   "homepage": "https://github.com/Dreampie/Vue2-CMS",
-  "author": "wangrenhui <wangrenhui@meituan.com>",
+  "author": "Dreampi <Dreampie@outlook.com>",
   "private": true,
   "scripts": {
     "local": "cross-env NODE_ENV=local webpack --progress --hide-modules && cross-env NODE_ENV=local webpack-dev-server --open --inline --hot --port 10000",
