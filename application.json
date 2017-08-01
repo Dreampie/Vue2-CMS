@@ -1,0 +1,24 @@
+{
+  "port": 10000,
+  "title": "运营平台主页",
+  "local": {
+    "rootUrl": "http://localhost:10000",
+    "apiRootUrl": "http://localhost:9000",
+    "loginUrl": "http://develop.sso.test.sankuai.info/auth?service=http://localhost:9000/sso"
+  },
+  "dev": {
+    "rootUrl": "http://view-cms.pay.dev.sankuai.com",
+    "apiRootUrl": "http://home.api.pay.dev.sankuai.com",
+    "loginUrl": "http://develop.sso.test.sankuai.info/auth?service=http://home.api.pay.dev.sankuai.com/sso"
+  },
+  "staging": {
+    "rootUrl": "http://view-cms.pay.st.sankuai.com",
+    "apiRootUrl": "http://home.api.pay.st.sankuai.com",
+    "loginUrl": "http://develop.sso.test.sankuai.info/auth?service=http://home.api.pay.st.sankuai.com/sso"
+  },
+  "prod": {
+    "rootUrl": "http://view-cms.sankuai.com",
+    "apiRootUrl": "http://home.api.funds.sankuai.com",
+    "loginUrl": "http://develop.sso.test.sankuai.info/auth?service=http://home.api.funds.sankuai.com/sso"
+  }
+}
