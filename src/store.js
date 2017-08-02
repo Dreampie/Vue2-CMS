@@ -1,13 +1,13 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import {menu, session} from "./store/index.js";
+import * as store from "./store/index.js";
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
     modules: {
-        session,
-        menu
+        session: store.session,
+        menu: store.menu
     },
     strict: true
 })

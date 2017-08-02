@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import IndexView from "./view/Index.vue";
+import * as view from "./view/index.js";
 
 Vue.use(VueRouter)
 
@@ -9,7 +9,7 @@ const router = new VueRouter({
     linkActiveClass: 'active',
     scrollBehavior: () => ({y: 0}),
     routes: [
-        {path: '/', component: IndexView}
+        {path: '/', component: view.IndexView}
     ]
 })
 
