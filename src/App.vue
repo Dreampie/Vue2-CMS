@@ -4,7 +4,7 @@
         <v-loading></v-loading>
         <!--head-->
         <header class="header">
-            <v-top-menu :disable="true" :logo="logo" :help="help" :session="session"></v-top-menu>
+            <v-top-menu :logo="logo" :help="help" :session="session"></v-top-menu>
         </header>
         <router-view class="main"></router-view>
         <!--foot-->
@@ -91,12 +91,18 @@
     }
 
     .bodyer {
+        padding-top: 45px;
         min-height: 100%;
         position: relative;
     }
 
     .bodyer .header {
         padding-bottom: 10px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
     }
 
     .bodyer .main {
@@ -104,10 +110,13 @@
     }
 
     .bodyer .footer {
-        border-radius: 0rem !important;
-        margin: 0rem !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
         width: 100%;
-        position: absolute;
+        padding-bottom: 10px;
+        position: fixed;
+        left: 0;
+        top: auto;
         bottom: 0;
     }
 
@@ -122,4 +131,9 @@
     .bodyer .footer .container a:hover {
         color: rgba(0, 0, 0, 0.8);
     }
+
+    .calendar {
+        display: inline-block;
+    }
+
 </style>
