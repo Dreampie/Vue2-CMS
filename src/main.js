@@ -22,9 +22,9 @@ window.localStorage.setItem("loginUrl", loginUrl)
 
 Vue.use(Vue2Plugin)
 
-console.log(Vue.cookie)
-console.log(Vue.bus)
-console.log(Vue.http.defaults)
+// console.log(Vue.cookie)
+// console.log(Vue.bus)
+// console.log(Vue.http.defaults)
 
 console.log(store)
 new Vue({
